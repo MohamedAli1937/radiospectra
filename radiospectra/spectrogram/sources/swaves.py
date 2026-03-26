@@ -35,4 +35,4 @@ class SWAVESSpectrogram(GenericSpectrogram):
 
     @classmethod
     def is_datasource_for(cls, data, meta, **kwargs):
-        return meta["instrument"] == "swaves"
+        return meta["instrument"] == "SWAVES"
